@@ -7,5 +7,5 @@ List of regular expressions to block adds using a squid proxy. Copy the blocklis
 acl ads dstdom_regex "/etc/squid/ad_block.txt"
 http_access deny ads
 ```
-## Shout outs:
+## Credits:
 Original list comes from https://pgl.yoyo.org/adservers/serverlist.php?hostformat=squid-dstdom-regex;showintro=0
